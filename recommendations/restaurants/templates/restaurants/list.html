@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+{% load render_table from django_tables2 %}
+
 <html lang="en-US">
     <head>
         <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
@@ -43,27 +45,10 @@
         
         <!-- End of Navbar -->
 
-        <div style="text-align: center; margin-top:300px">
-        <table>
-            <tr>
-                <th>Name</th>
-                <th>Neighborhood</th>
-                <th>Cuisine</th>
-                <th>Price</th>
-                <th>Rating</th>
-                <th>Comments</th>
-            </tr>
-            {% for item in restaurants %}
-            <tr> 
-                <td>{{ item.name }}</td>
-                <td>{{ item.neighborhood }}</td>
-                <td>{{ item.cuisine }}</td>
-                <td>{{ item.price }}</td>
-                <td>{{ item.rating }}</td>
-                <td>{{ item.comments}}</td>
-            </tr>
-            {% endfor %}
-        </table>
+        <div style="margin:auto;margin-top:200px; width:75%">
+            <body class="w3-table">
+                {% render_table table %}
+            </body>
         </div>
   </body>
 </html>

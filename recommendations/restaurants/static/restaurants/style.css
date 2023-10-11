@@ -1,7 +1,9 @@
 li a {
     color: green;
 }
-
+table, th, td{
+    border:1px solid;
+}
 /*body {
     background: white url("images/background.gif") no-repeat;
 }*/
