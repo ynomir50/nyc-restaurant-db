@@ -19,7 +19,7 @@ class Restaurant(models.Model):
     cuisine = models.CharField(max_length = 50)
     price = models.IntegerField(default = 2)
     rating = models.IntegerField(default = 3)
-    comments = models.CharField(max_length = 200)
+    comments = models.CharField(max_length = 200, blank = True, null = True)
     
     def __str__(self):
         return self.name
