@@ -9,6 +9,7 @@ class RestaurantListView(SingleTableView):
     model = Restaurant
     table_class = RestaurantTable
     template_name = 'restaurants/list.html'
+    table_pagination = False
 
 def index(request):
     return render(request, "restaurants/index.html")
