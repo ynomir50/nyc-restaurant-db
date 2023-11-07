@@ -2,18 +2,17 @@ Name,Neighborhood,Cuisine,Price,Rating,Comments
 L'Industrie,Williamsburg,Pizza,2,4,
 KJUN,Midtown East,Fusion,3,4,Korean/Cajun
 Atoboy,NoMad,Korean,4,3,
-NONONO,K-Town,Korean,3,3,
+NONONO,K-Town,Korean,3,3,Skewer specialty
 Sami's Kebab House,Astoria,Afghan,2,3,
 Chama Mama,Chelsea,Georgian,3,3,
 Hunan Slurp,East Village,Chinese,2,3,
 Kopitiam,Chinatown,Malaysian,2,3,
 Moono,K-Town,Korean,4,4,
 Scarr's,Chinatown,Pizza,2,4,
-Hakata TonTon,K-Town,Fusion,2,3,Generally Asian
+Hakata TonTon,K-Town,Japanese,2,3,
 COTE,NoMad,Korean,4,4,KBBQ
 Abiko Curry,K-Town,Japanese,3,2,
 Maison Pickle,Upper West Side,American,3,3,
-Thai Villa,NoMad,Thai,3,3,
 Una Pizza Napoletana,Lower East Side,Pizza,3,3,Neapolitan Pizza
 Liuyishou Hotpot,Flushing,Chinese,3,3,
 PappaRich,Flushing,Malaysian,2,3,
@@ -32,3 +31,20 @@ Han Dynasty,Upper West Side,Chinese,3,3,
 Rowdy Rooster,East Village,Indian,1,4,Indian Fried Chicken
 Zaab Zaab,Elmhurst,Thai,2,3,
 Tortas Neza,Corona,Mexican,1,2,"Humongous portions, food truck"
+OKDONGSIK,K-Town,Korean,2,4,Only serves Pork Soup
+Lord's,NoHo,English,3,3,
+Izakaya Mew,K-Town,Japanese,2,3,
+Nowon,East Village,Fusion,3,3,
+Cafe Mogador,East Village,Moroccan,3,3,
+Sushi by Bou,K-Town,Japanese,3,3,Sushi
+Mamoun's Falafel,East Village,Mediterranean,1,2,
+Katsuhama,Midtown East,Japanese,3,2,"Katsu specialty, huge portions"
+Thai Villa,Flatiron,Thai,3,2,
+Her Name Is Han,K-Town,Korean,3,3,
+Take 31,K-Town,Korean,3,3,
+Adel's,Midtown East,Halal,1,4,"Best halal food, but the line might be an hour"
+Sylvia's,Harlem,Southern,2,3,
+Dhamaka,Lower East Side,Indian,4,3,
+Dinosaur Bar-B-Que,Harlem,BBQ,3,3,
+KazuNori,NoMad,Japanese,3,2,Hand rolls
+Kaoru,Midtown East,Japanese,3,4,Raw fish bowls are best
